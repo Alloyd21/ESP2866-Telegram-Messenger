@@ -18,14 +18,12 @@ WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
 int buttonPin = 4;     
-
 int buttonPushCounter = 0;   // counter for the number of button presses
 int buttonState = 0;         // current state of the button
 int lastButtonState = 0;     // previous state of the button
 
 void setup() 
 {
- 
   pinMode(buttonPin, INPUT);
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(115200);
@@ -74,14 +72,4 @@ void loop() {
     ledOn = false;
     messageSent = false;
   }
-
 }
-
-
-  
- 
-
-   
-        
-       
-    
