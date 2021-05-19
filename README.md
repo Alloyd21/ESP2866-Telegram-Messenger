@@ -101,6 +101,24 @@ The Libraries that we are installing are:
 
 ![](https://puu.sh/HH1qz.png)
 
+
+
+### 4.3) Add ESP Boards
+
+To install the necessary boards for this project go to **Tools > Board: X > Boards Manager**
+
+![](https://puu.sh/HHUuC.png)
+
+
+
+In boards manager, search `ESP8266` and then install the package. 
+
+![](https://puu.sh/HHUvI.png)
+
+Then go back to board selector and pick the board you're currently using. 
+
+
+
 ## 5) Customise your code
 
 Now using the telegram details you setup before, copy your Bot token into the `"TOKEN"` field and Chat ID into the `"CHAT_ID"` Field
